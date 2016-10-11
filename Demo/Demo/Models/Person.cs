@@ -19,7 +19,7 @@ namespace Demo.Models
 
 		[Required]
 		[Range(16, 150, ErrorMessage = "Age must be between 16 and 150 years old")]
-		[Display(Name = "Age in years.")]
+		[Display(Name = "Age in years")]
 		public int Age { get; set; }
 
 		[Required]
